@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>História do Maranhão em Libras</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #ffffff;
+            background-image: url('https://i.imgur.com/7O3mKDL.png');
+            background-repeat: repeat;
+            color: #333;
+        }
+
+        header {
+            background-color: #003366;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #0055a5;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: block;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            background-color: #003366;
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+            background-color: rgba(255, 255, 255, 0.95);
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .card {
+            background-color: #f2f2f2;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #003366;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+
+        h1, h2 {
+            color: #003366;
+        }
+
+        .button {
+            background-color: #007A33;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .button:hover {
+            background-color: #005a24;
+        }
+
+        .social {
+            margin-top: 20px;
+        }
+
+        .social a {
+            text-decoration: none;
+            color: white;
+            background-color: #0055a5;
+            padding: 10px 15px;
+            border-radius: 50px;
+            margin: 5px;
+            display: inline-block;
+        }
+
+        .social a:hover {
+            background-color: #003366;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>História do Maranhão em Libras</h1>
+        <p>Livro acessível em Libras, texto e PDF</p>
+    </header>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#ler-online">Ler Online</a>
+        <a href="#baixar-pdf">Baixar PDF</a>
+        <a href="#youtube">Libras - YouTube</a>
+        <a href="#vimeo">Libras - Vimeo</a>
+    </nav>
+
+    <div class="container">
+
+        <section id="home" class="card">
+            <h2>Home</h2>
+            <p>Bem-vindo ao <strong>História do Maranhão em Libras</strong>. Este projeto tem como objetivo promover o acesso à história e à cultura do Maranhão para estudantes surdos, intérpretes e professores.</p>
+            <p>Aqui você encontrará o livro em diferentes formatos: texto online, PDF para download e vídeos em Libras no YouTube e Vimeo.</p>
+        </section>
+
+        <section id="ler-online" class="card">
+            <h2>Ler o Livro Online</h2>
+            <p>Leia o livro diretamente no seu navegador, sem precisar baixar.</p>
+            <a href="#" class="button" target="_blank">Acessar o Livro Online</a>
+        </section>
+
+        <section id="baixar-pdf" class="card">
+            <h2>Baixar o Livro em PDF</h2>
+            <p>Baixe o livro completo em PDF para acessar quando quiser, mesmo offline.</p>
+            <a href="#" class="button" download>Baixar PDF</a>
+        </section>
+
+        <section id="youtube" class="card">
+            <h2>Livro em Libras - YouTube</h2>
+            <p>Assista à versão completa do livro em Libras no nosso canal do YouTube.</p>
+            <a href="#" class="button" target="_blank">Assistir no YouTube</a>
+        </section>
+
+        <section id="vimeo" class="card">
+            <h2>Livro em Libras - Vimeo</h2>
+            <p>Assista à versão completa do livro em Libras na plataforma Vimeo.</p>
+            <a href="#" class="button" target="_blank">Assistir no Vimeo</a>
+        </section>
+
+        <div class="social">
+            <h3>Fale Conosco</h3>
+            <a href="https://wa.me/5599999999999" target="_blank">WhatsApp</a>
+            <a href="https://instagram.com/seuusuario" target="_blank">Instagram</a>
+            <a href="mailto:seuemail@dominio.com">E-mail</a>
+        </div>
+
+    </div>
+
+    <footer>
+        <p>&copy; 2025 História do Maranhão em Libras | Desenvolvido por Tiago F. Veras</p>
+    </footer>
+
+</body>
+</html>
